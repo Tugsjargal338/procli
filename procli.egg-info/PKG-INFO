@@ -1,3 +1,27 @@
+Metadata-Version: 2.2
+Name: procli
+Version: 0.0.1
+Summary: A CLI for creating Python projects using Pipenv
+Home-page: https://github.com/skrept338/procli
+Author: skrept
+Author-email: en.jargal.dev@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # procli
 
 **procli** is a CLI tool for creating and managing Python projects inspired by the simplicity of npm. It streamlines project initialization, dependency management, and environment setup by leveraging Pipenv. With **procli**, you can quickly set up a new Python project, manage dependencies with ease, and ensure that your project runs in an isolated virtual environment.
